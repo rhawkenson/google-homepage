@@ -1,15 +1,43 @@
+*{
+    border: 1px solid white !important;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif
 }
 
 nav{
+    display: inline-flex;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+}
+
+#left {
     display: flex;
-    justify-items: flex-start;
-    flex-direction: row;
+    justify-content: flex-start;
 }
 
-.left-nav{
+#right {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
 
-.right-nav{
+
+
+img {
+    width: 20px;
+    height: auto;
+}
+
+#signin {
+    border-radius: 5%;
+    color: white;
+    background-color: rgb(73, 135, 236);
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    border: none;
 }
