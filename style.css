@@ -84,14 +84,41 @@ nav{
  #submit{
     display: inline;
     margin: 30px 10px 5px auto;
-
-
  }
  
  #lucky{
     display: inline;
     margin: 30px auto 5px 10px;
-    
+ }
+
+ main{
+     margin-bottom: 270px;
  }
 
 /* Footer */
+
+footer{
+    display: flex;
+
+    font-size: 15px;
+    background-color:rgb(242, 242, 242);
+}
+
+.footer-left{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.footer-right{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.footer-item{
+    margin: 20px 15px 20px 5px;
+    padding: 20px, 20px;
+}
