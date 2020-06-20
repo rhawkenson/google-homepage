@@ -53,17 +53,28 @@ nav{
     margin: 100px auto 0px auto;
 }
 
-#search{
-    display: block;
+#search-container{
+    display: flex;
     margin: 20px auto 0px auto;
     width: 400px;
     height: 25px;
     font-size: 20px;
-    background-image: url('images/finder.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 5px;
+    border: 1px solid rgb(242, 242, 242);
     border-radius: 20px;
+    align-items: center;
+}
+#finder{
+    height: 12px;
+    width: 12px;
+    padding: 5px 5px 5px 10px;
+}
+
+#searchbox{
+    border: ;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 20px;
+    border: 0px solid transparent;
 }
 
 #buttons{
